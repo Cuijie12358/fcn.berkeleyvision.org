@@ -1,0 +1,6 @@
+#本地保存模型，在caffemode-url中下载
+voc-fcn8s/fcn8s-heavy-pascal.caffe*
+voc-fcn16s/fcn16s-heavy-pascal.caffe*
+voc-fcn32s/fcn32s-heavy-pascal.caffe*
+results/
+

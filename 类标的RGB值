@@ -1,0 +1,22 @@
+类别名称 	R	G	B 
+background 	0	0	0	背景 
+aeroplane 	128	0	0	飞机 
+bicycle 	0	128	0	自行车
+bird		128	128	0	鸟
+boat 		0	0	128	船
+bottle 		128	0	128	瓶子 
+bus 		0	128	128	大巴 
+car 		128	128	128	轿车
+cat 		64	0	0	猫 
+chair 		192	0	0	椅子
+cow 		64	128	0	牛
+diningtable 	192	128	0	餐桌 
+dog 		64	0	128	狗
+horse 		192	0	128	马
+motorbike 	64	128	128	摩托
+person 		192	128	128	人
+pottedplant 	0	64	0	盆栽 
+sheep 		128	64	0	羊
+sofa 		0	192	0	沙发
+train 		128	192	0	火车
+tvmonitor 	0	64	128	显示器

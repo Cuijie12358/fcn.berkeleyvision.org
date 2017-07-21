@@ -1,10 +1,10 @@
 import numpy as np
 from PIL import Image
-
+import matplotlib.pyplot as plt
 import caffe
 
 # load image, switch to BGR, subtract mean, and make dims C x H x W for Caffe
-im = Image.open('pascal/VOC2010/JPEGImages/2007_000129.jpg')
+im = Image.open('data/testdata/000008.jpg')
 in_ = np.array(im, dtype=np.float32)
 in_ = in_[:,:,::-1]
 in_ -= np.array((104.00698793,116.66876762,122.67891434))
@@ -18,3 +18,9 @@ net.blobs['data'].data[...] = in_
 # run net and take argmax for prediction
 net.forward()
 out = net.blobs['score'].data[0].argmax(axis=0)
+
+#plt.imshow(out,cmap='gray');
+plt.imshow(out);
+plt.axis('off')
+plt.savefig('results/voc-fcn8s/000008.png')
+plt.show()
